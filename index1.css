@@ -506,8 +506,9 @@ left: 100px;
     .middle-card{
 
         display: grid;
-        width: 65vh;
+        
         padding: 5rem;
+        right: 120px;
 
     }
 
