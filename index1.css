@@ -228,7 +228,8 @@
 
 
 .middle-container{
-    padding-top: 80px;
+    position: relative;
+    padding-top: 20px;
     
 }
 
@@ -236,39 +237,44 @@
 
 
 .middle-container1{
-text-align: center;
-font-weight: bold;
+
+margin: 0px auto 50px ;
+height: 20%;
 font-size: 3.0rem;
-width: 85%;
-height: 25%;
-position: absolute;
-left: 100px;
+text-align: center;
+width: 28%;
+opacity: 1;
+font-weight: bold;
+
 
 
 
 }
+
+.right
+{
+    width: 15%;
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    
+    }
+.left
+{
+    width: 15%;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    }
 
 .middle-container2{
 
     
-    width: 38%;
-    height: 100%; 
-    padding: 30px;
-    position: absolute;
-    right: 260px;
-    padding-top: 90px;
+    display: flex;
+    justify-content: center;
     
    }
 
-
-#paris-text::before , #paris-text::after{
-
-    content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
-    text-decoration: line-through;
-    margin:auto 0.5em;
-    
-   
-}
 
 
 #back{
@@ -276,10 +282,7 @@ left: 100px;
     opacity: 1px;
     font-size: 1.5rem;
     color: gray;
-    width: 80%;
-    height: 25px;
-    position: relative;
-    left: 8px;
+    margin-left: 10px;
     
     
     }
@@ -287,7 +290,7 @@ left: 100px;
 
 .middle-card{
 
-    padding-top: 150px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -474,19 +477,22 @@ left: 100px;
 
 
 
-    #leftarrow{
-
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        font-size:25px;
-        
-    }
+    
 
     .middle-container2{
-        width: 5%;
-        
-        
+        width: 20%;
+        position: absolute;
+        top: 25px;
+      
+    }
+
+    
+    .right {
+        display: none;
+    }
+
+    .left{
+        display: none;
     }
     
     #back{
@@ -501,22 +507,12 @@ left: 100px;
     
     }
 
-    
-
-    #paris-text::before , #paris-text::after{
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        text-decoration: none;
-        
-        
-    }
 
 
     .middle-card{
 
-        display: grid;
-        padding: 5rem;
+        padding-top: 10px;
+        
         
 
     }
