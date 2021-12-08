@@ -66,12 +66,13 @@
 .card1{
 
     margin-top: 10px;
-    margin-left: 200px;
+    
     border: 1.5px solid red;
     width: 28vh;
-    height: 15%;
+    height: 15px;
     padding-top: 20% ;
-    position: relative;
+    position: absolute;
+    left: 15vh;
     border-radius: 8px;
     box-shadow: 5px 5px 10px grey ;
     
@@ -86,7 +87,8 @@
     width: 28vh;
     height: 15%;
     padding-top: 20% ;
-    position: relative;
+    position: absolute;
+    left: 50vh;
     border-radius: 8px;
     box-shadow: 5px 5px 10px grey ;
     
@@ -96,16 +98,49 @@
 .card3{
 
     margin-top: 10px;
-    margin-right: 300px;
+    
     border: 1.5px solid red;
     width: 28vh;
     height: 15%;
     padding-top: 20% ;
-    position: relative;
+    position: absolute;
+    left: 90vh;
     border-radius: 8px;
     box-shadow: 5px 5px 10px grey ;
     
     }
+
+
+.todocard4{
+
+    margin-top: 10px;
+    
+    border: 1.5px solid red;
+    width: 28vh;
+    height: 15%;
+    padding-top: 20% ;
+    position: absolute;
+    right: 50vh;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey ;
+
+}
+
+
+.todocard5{
+
+    margin-top: 10px;
+    
+    border: 1.5px solid red;
+    width: 28vh;
+    height: 15%;
+    padding-top: 20% ;
+    position: absolute;
+    right: 15vh;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey ;
+
+}
 
 .card4{
 
@@ -321,7 +356,7 @@ font-weight: bold;
     position: relative;
     bottom: 250px;
     right: 50px;
-    padding-top: 20px;
+    bottom: 0vh;
     margin: auto;
     height: 25vh;
     width:25% ;
@@ -449,30 +484,54 @@ font-weight: bold;
     .card-container{
        display: grid;
        
-       
+     
     }
     
     .card1{
         width: 90%;
-        margin-top: 10px;
+        margin-top:0vh;
         height: 15vw;
-        right: 11.3rem;
+        left: 25px;
+        top: 23vh;
         
        
     }
 
     .card2{
         width: 90%;
-        margin-top: 20px;
+        margin-top: 15vh;
         height: 15vw;
-        left: 10px;
+        left: 15px;
+        top: 23vh;
     }
 
     .card3{
         width: 90%;
-        margin-top: 20px;
+        margin-top: 30vh;
         height: 15vw;
-        left: 20px;
+        left: 25px;
+        top: 23vh;
+    }
+
+    .todocard4{
+
+        width: 90%;
+        margin-top: 45vh;
+        height: 15vw;
+        left: 25px;
+        top: 23vh;
+        
+    }
+
+    .todocard5{
+
+            width: 90%;
+            margin-top: 59vh;
+            height: 15vw;
+            left: 25px;
+            top: 23vh;
+            
+        
     }
 
 
@@ -521,15 +580,22 @@ font-weight: bold;
 
    .card4{
 
-    height: 15rem;
+    height: 20rem;
+    
+    
+    
    }
 
+
+   .third-container{
+       padding-top: 10px;
+   }
   
 
     .popup{
         height: 48vw;
         width: 75%;
-        bottom: 33vh;
+        bottom: 0vh;
         right: 1px;
         
 
