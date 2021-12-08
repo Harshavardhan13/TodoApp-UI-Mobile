@@ -353,7 +353,7 @@ font-weight: bold;
 
 .popup{
 
-    position: relative;
+    position: relative; 
     bottom: 250px;
     right: 50px;
     bottom: 0vh;
